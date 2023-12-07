@@ -1,0 +1,108 @@
+aside {
+  width: 80px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #23408e;
+  overflow: hidden;
+}
+.sidebar-links {
+  padding: 3rem 0;
+}
+aside a {
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  display: block;
+  padding: 12px;
+  letter-spacing: 0em;
+  transition: background-color 0.3s;
+  padding-left: 20px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
+aside a:hover {
+  background: #fff;
+  outline: none;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 10px;
+}
+
+aside a:hover::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+aside a:hover::before {
+  content: "";
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  top: 44px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside p {
+  margin: 0px;
+  padding: 40px 0;
+}
+.active {
+  background: #fff;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 10px;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-bottom-right-radius: 18px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 44px;
+  right: 0;
+  height: 35px;
+  width: 35px;
+  border-top-right-radius: 18px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+
+aside a:hover .icons,
+.active .icons {
+  color: #23408e;
+}
+
+.icons {
+  max-width: 22px;
+  font-size: 17px;
+  height: auto;
+  margin-right: 2px;
+  transition: color 0.3s;
+}

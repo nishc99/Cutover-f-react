@@ -1,0 +1,80 @@
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0px;
+  border: 1px solid #ccc;
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+}
+
+.popupHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 10px 0;
+  background-color: #23408e;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.popupHeader h2 {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Your Chosen Font", sans-serif;
+  margin-left: 20px;
+}
+
+.popup button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between rows as needed */
+}
+
+.row {
+  display: flex;
+  gap: 20px; /* Adjust the gap between columns as needed */
+}
+
+.column {
+  flex: 1; /* Equal width for both columns in a row */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f3f3f8;
+  border-color: transparent transparent#23408E transparent;
+}
+
+.buttons {
+  color: black;
+}
+.proceed {
+  color: "black";
+  background-color: #23408e;
+}
+
+.option {
+  background-color: "red" !important;
+}

@@ -1,0 +1,113 @@
+/* SignIn.module.css */
+
+.container {
+  background: url("../Image/loginscreen.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.SignInForm {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 80%;
+  width: 458px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  max-height: 80vh;
+}
+
+.SignInForm h1 {
+  color: #212427;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+.SignInForm p {
+  color: #474747;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+.SignInForm .formGroup {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignInForm label {
+  margin-bottom: 5px;
+  align-self: flex-start;
+  color: #212427;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  margin-left: 40px;
+}
+
+.SignInForm input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.SignInForm button {
+  background-color: #23408e;
+  color: #f9f9f9;
+  padding: 7px 65px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 25px;
+}
+
+.togglePasswordIcon {
+  position: relative;
+  cursor: pointer;
+  top: -2rem;
+  left: 8.5rem;
+}
+
+.signUpLink {
+  margin-top: 1rem;
+  text-align: center;
+  color: #474747;
+}
+
+.signUpLink a {
+  color: #23408e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signUpLink a:hover {
+  text-decoration: underline;
+}
+
+/* Add responsive styles as needed */
+@media (max-width: 768px) {
+  .SignInForm {
+    max-width: 90%;
+    width: 100%; /* Adjust as needed */
+  }
+
+  .SignInForm label {
+    margin-right: 0;
+  }
+
+  .togglePasswordIcon {
+    left: auto;
+    right: 1rem; /* Adjust as needed */
+  }
+}

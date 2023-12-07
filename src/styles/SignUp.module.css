@@ -1,0 +1,118 @@
+/* SignUp.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../Image/loginscreen.jpeg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.SignUpContainer {
+  width: 90%;
+  max-width: 450px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .SignUpContainer {
+    width: 80%;
+  }
+
+  .togglePasswordIcon {
+    left: 15rem;
+  }
+
+  .Signup_button {
+    padding: 7px 45px;
+  }
+}
+
+.SignUpForm {
+  text-align: center;
+}
+
+.heading {
+  color: #212427;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+}
+
+.signup_p {
+  color: #474747;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.SignUpForm1 {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #212427;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+}
+
+.signupinput {
+  width: 90%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.togglePasswordIcon {
+  position: relative;
+  cursor: pointer;
+  left: 22rem;
+  top: -1.7rem;
+}
+
+.Signup_button {
+  background-color: #23408e;
+  color: #f9f9f9;
+  padding: 7px 65px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+
+button:hover {
+  background-color: #213776;
+}
+
+.signinLink {
+  margin-top: 1rem;
+  text-align: center;
+  color: #474747;
+  margin-right: 2rem;
+}
+
+.signinLink a {
+  color: #23408e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signinLink a:hover {
+  text-decoration: underline;
+}

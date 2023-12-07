@@ -1,0 +1,171 @@
+/* TeamList.module.css */
+
+.teamList {
+    margin: 20px;
+    position: absolute;
+    top: 11rem;
+    left: 23rem;
+    width: 1244px;
+  }
+  
+  .addButton {
+    position: absolute;
+    top: 2rem;
+    left: 73rem;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 73px;
+    height: 36px;
+    background-color: #23408E;
+    color: white;
+  }
+  .addButton1 {
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 16rem;
+    left: 74rem;
+  }
+  
+  .table {
+    width: 100%;
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  margin-top: 10px;
+  border-radius: 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 8px; /* Adjust the padding values as needed */
+  text-align: left;
+  border: none;
+  }
+  
+  .editIcon,
+  .deleteIcon,
+  .arrowIcon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .teamContainer {
+    margin-bottom: 20px;
+  }
+  
+  .collapsibleRow {
+    background-color: #f9f9f9;
+  }
+  
+  
+  .table th {
+    border: none;
+  }
+  
+  
+  .table tr {
+    background-color: #ececec;
+  }
+  
+  .text4 {
+    position: absolute;
+    top: 0;
+    left: 5.38rem;
+  }
+  .text5 {
+    left: 21.19rem;
+  }
+  .text5,
+  .text6,
+  .text7 {
+    position: absolute;
+    top: 0;
+  }
+  .text6 {
+    left: 41.25rem;
+  }
+  .text7 {
+    left: 0;
+  }
+
+  .buttonText,
+  .downloadIcon {
+    position: relative;
+  } 
+
+  .teamList .tr001 {
+    background-color: transparent; /* Set your desired background color here */
+    color: var(--gray-500, #667085);
+font-feature-settings: 'ss01' on;
+/* Body/14 Reg */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .tr001action {
+    position: absolute;
+    left: 59rem;
+  }
+
+  .filtersLinesIcon {
+    position: relative;
+    width: 3.25rem;
+    height: 1.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .topheading {
+    color: #212427;
+
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+.inlineinput1 {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inlineinput2 {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inlineinput3 {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.inlineinput4 {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+
+
+
